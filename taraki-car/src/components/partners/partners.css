@@ -1,11 +1,11 @@
-.gpt3__brand {
+.partners {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.gpt3__brand div {
+.partners div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;
@@ -14,4 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.partners img {
+    width: 150px;
+    filter: grayscale(90%) brightness(100%) contrast(100%);
 }

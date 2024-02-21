@@ -5,18 +5,18 @@ import './blog.css';
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog section__padding">
-      <div className="gpt3__blog-heading">
+    <div className="blog section__padding">
+      <div className="blog-heading">
         <h1 className="gradient__text">A lot is happening, We are blogging about it</h1>
       </div>
-      <div className="gpt3__blog-container">
-        <div className="gpt3__blog-container_groupA">
-          <Article imgUrl={blog01} date="Sep 6 2007" title="Open AI is the future. Let us explore it is?"/>
+      <div className="blog-container">
+        <div className="blog-container_groupA">
+          <Article imgUrl={blog01} date="Sep 6 2007" title="Regional Caravan 1.1"/>
         </div>
-        <div className="gpt3__blog-container_groupB">
-          <Article imgUrl={blog02} date="Sep 6 2007" title="Open AI is the future. Let us explore it is?"/>
-          <Article imgUrl={blog03} date="Sep 6 2007" title="Open AI is the future. Let us explore it is?"/>
-          <Article imgUrl={blog04} date="Sep 6 2007" title="Open AI is the future. Let us explore it is?"/>
+        <div className="blog-container_groupB">
+          <Article imgUrl={blog02} date="Sep 6 2007" title="Regional Caravan 1.2"/>
+          <Article imgUrl={blog03} date="Sep 6 2007" title="RIIC Info-Drive"/>
+          <Article imgUrl={blog04} date="Sep 6 2007" title="RIIC 2022 Planning Workshop"/>
           <Article imgUrl={blog05} date="Sep 6 2007" title="Open AI is the future. Let us explore it is?"/>
         </div>
       </div>

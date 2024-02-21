@@ -1,4 +1,4 @@
-.gpt3__cta {
+.subscribe {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,7 @@
     background: var(--gradient-bar);
 }
 
-.gpt3__cta-content p {
+.subscribe-content p {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 24x;
@@ -18,14 +18,14 @@
     color: #0E0E0E
 }
 
-.gpt3__cta-btn {
+.subscribe-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
 }
 
-.gpt3__cta-btn button {
+.subscribe-btn button {
     background: #000000;
     color: white;
     border-radius: 40px;
@@ -41,24 +41,24 @@
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__cta {
+    .subscribe {
         flex-direction: column;
     }
 
-    .gpt3__cta-btn {
+    .subscribe-btn {
         margin: 2rem 0 0;
     }
 }
 
 @media screen and (max-width: 550px) {
-   .gpt3__cta {
+   .subscribe {
     margin: 4rem 2rem;
    }
-   .gpt3__cta-content h3 {
+   .subscribe-content h3 {
     font-size: 18px;
     line-height: 32px;
    }
-   .gpt3__cta-btn button {
+   .subscribe-btn button {
     font-size: 14px;
     line-height: 28px;
    }

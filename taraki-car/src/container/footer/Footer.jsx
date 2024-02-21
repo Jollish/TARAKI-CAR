@@ -4,41 +4,42 @@ import gpt3Logo from '../../assets/logo.png'
 
 const Footer = () => {
   return (
-    <div className="gpt3__footer section__padding">
-      <div className="gpt3__footer-heading">
+    <div className="footer section__padding">
+      <div className="footer-heading">
         <h1 className="gradient__text">Do you want to step into the future of others</h1>
       </div>
-      <div className="gpt3__footer-btn">
+      <div className="footer-btn">
         <p>Request Early Access</p>
       </div>
 
-      <div className="gpt3__footer-links">
-        <div className="gpt3__footer-links_logo">
+      <div className="footer-links">
+        <div className="footer-links_logo">
           <img src={gpt3Logo} alt="logo" />
-          <p></p>
+          <p>A virtual or physical platforms for collaborative programs purposively to generate product, process, or service innovations that are deemed important to the goal of inclusive growth and development of the respective regions. </p>
         </div>
-        <div className="gpt3__footer-links_div">
+        <div className="footer-links_div">
           <h4>Links</h4>
           <p>Overons</p>
           <p>Social Media</p>
           <p>Counters</p>
           <p>Contact</p>
         </div>
-        <div className="gpt3__footer-links_div">
+        <div className="footer-links_div">
           <h4>Company</h4>
           <p>Terms and Conditions</p>
           <p>Privacy Policy</p>
           <p>Contact</p>
         </div>
-        <div className="gpt3__footer-links_div">
-          <h4>Get in touch</h4>
-          <p>Crechterwoord k12 182 Dk Alknjkcb</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
+        <div className="footer-links_div">
+          <h4>Join Our Team</h4>
+          <p>UC Legarda Campus, Legarda Rd.</p>
+          <p>Baguio City, Benguet</p>
+          <p>Philippines</p>
         </div>
       </div>
-      <div class="gpt3__footer-copyright">
-        <p>2022 GPT3. All rights reserved</p>
+      <div class="footer-copyright">
+        <p>2022 ATTRACT | All rights reserved</p>
+        <p>Designed by TARAKI-CAR</p>
       </div>
     </div>
   )

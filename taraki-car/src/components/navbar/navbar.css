@@ -1,4 +1,4 @@
-.gpt3__navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,35 +6,35 @@
     padding: 2rem 6rem;
 }
 
-.gpt__navbar-links {
+.navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.gpt3__navbar-links_logo {
+.navbar-links_logo {
     margin-right: 2rem;
 }
-.gpt3__navbar-links_logo img {
+.navbar-links_logo img {
     width: 200px;
     height: 100px;
 }
 
-.gpt3__navbar-links_container {
+.navbar-links_container {
     display: flex;
     flex-direction: row;
 }
 
-.gpt3__navbar-sign {
+.navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.gpt3__navbar-links_container p,
-.gpt3__navbar-sign p,
-.gpt3__navbar-menu_container p {
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -45,8 +45,8 @@
     cursor: pointer;
 }
 
-.gpt3__navbar-sign button,
-.gpt3__navbar-menu container button {
+.navbar-sign button,
+.navbar-menu container button {
      padding: 0.5rem 1rem;
      color: #fff;
      background: #FF4820;
@@ -60,18 +60,18 @@
      cursor: pointer;
 }
 
-.gpt3__navbar-menu {
+.navbar-menu {
     margin-left: 1rem;
 
     display: none;
     position: relative;
 }
 
-.gpt3__navbar-menu svg {
+.navbar-menu svg {
     cursor: pointer;
 }
 
-.gpt3__navbar-menu_container {
+.navbar-menu_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -88,46 +88,46 @@
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
 
-.gpt3__navbar-menu_container p {
+.navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.gpt3__navbar-menu_container-links-sign {
+.navbar-menu_container-links-sign {
     display: none;
 }
 
 @media screen and (max-width: 1050px) {
-    .gpt3__navbar-links_container {
+    .navbar-links_container {
         display: none;
     }
-    .gpt3__navbar-menu {
+    .navbar-menu {
         display: flex;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__navbar {
+    .navbar {
         padding: 2rem 4rem;
     }
-    .gpt3__navbar-sign button {
+    .navbar-sign button {
         font-size: 12px;
     }
-    .gpt3__navbar-sign p {
+    .navbar-sign p {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__navbar {
+    .navbar {
         padding: 2rem;
     }
-    .gpt3__navbar-sign {
+    .navbar-sign {
         display: none;
     }
-    .gpt3__navbar-menu_container {
+    .navbar-menu_container {
         top: 20px;
     }
-    .gpt3__navbar-menu_container-links-sign {
+    .navbar-menu_container-links-sign {
         display: block;
     }
 }
