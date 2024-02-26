@@ -45,6 +45,16 @@
     color: var(--color-text);
 }
 
+.db_icon {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    font-size: 2em;
+}
+
 @media screen and (max-width: 550px) {
     .about-container-title h1 {
         font-size: 14px;
