@@ -65,10 +65,12 @@
 
 .database-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-
     margin-top: 2rem;
+    margin-right: 2rem;
 }
 
 /* Customizing feature component as per needs */

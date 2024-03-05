@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Consortium, Blog, Database, About, Header } from './container';
+import { Footer, Consortium, Blog, Database, About, Header, Team } from './container';
 import { Navbar, Partners, Subscribe } from './components';
 import './App.css';
 
@@ -17,6 +17,7 @@ const App = () => {
         <Consortium />
         <Subscribe />
         <Blog />
+        <Team />
         <Footer />
         </div>
   )

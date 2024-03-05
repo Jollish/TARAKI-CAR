@@ -2,29 +2,15 @@ import React from 'react';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 import './header.css';
+import videoSrc from '../../assets/background/TARAKI ANIMATION_1.mp4';
 
 const Header = () => (
-    <div className="header section__padding" id="home">
-      <div className="header-content">
-        <h1 className="gradient__text">TARAKI</h1>
-        <p>Technological Consortium for Awareness, Readiness
-and Advancement of Knowledge in Innovation</p>
+  <div className="header section__padding" id="home">
+    <video autoPlay loop muted playsInline className="header-video">
+      <source src={videoSrc} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+);
 
-        <div className="header-content__input">
-          {/* <input type="email" placeholder="Your email"/> */}
-          <button type="button">Get Started</button>
-        </div>
-
-          {/* <div className="gpt3__header-content__people">
-            <img src={people} alt="people"/>
-            <p>1,600 people requested access a visit in last 24 hours</p> 
-            </div> */}
-          </div>
-
-          <div className="header-image">
-            <img src={ai} alt="ai"/>
-          </div>
-      </div>
-)
-
-export default Header
+export default Header;
