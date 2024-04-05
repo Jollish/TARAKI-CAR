@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 150px;
+  background: #040C18;
+}
+
+.card-text {
+  color: aliceblue;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.chrono__title {
+  background-color: white !important; /* Use !important to ensure override */
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
